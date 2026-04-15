@@ -1,3 +1,8 @@
+# Time Complexity --> O(logN)
+# Space Complexity --> O(1)
+# Explanation --> Using a binary search, check if the difference between the middle number and any of its adjacent numbers is greater than 1 and if so then return the output accordingly. 
+# If the missing number not adjacent to middle index, go towards the half where the difference between high index and middle index is lower than the difference bewteen corresponding values.
+
 class Solution:
     def missingNumber(self, arr):
         # code here
